@@ -59,7 +59,7 @@ class Owner
   end
   
   def sell_pets
-    Owner.reset_all
+    @pets = { :fishes=>[], :dogs=>[], :cats=>[] }
   end 
   
   def list_pets
