@@ -59,7 +59,7 @@ class Owner
   end
   
   def sell_pets
-    
+    Owner.reset_all
   end 
   
   def list_pets
