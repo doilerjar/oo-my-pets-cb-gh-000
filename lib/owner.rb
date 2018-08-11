@@ -27,11 +27,9 @@ class Owner
   def self.reset_all
     @@all = []
   end
-  
-  def 
-  
+
   def say_species
-    puts "I am a #{@species}."
+    "I am a #{@species}."
   end
   
   
